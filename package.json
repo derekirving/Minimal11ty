@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "clean": "rimraf dist",
-    "build": "npm run clean && eleventy"
+    "build": "eleventy",
+    "dist": "npm run clean && eleventy"
   },
   "keywords": [],
   "author": "",
